@@ -1,0 +1,72 @@
+body {
+  width: 90%;
+  max-width: 450px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif; /* Tipografía moderna y limpia */
+  line-height: 1.6;
+  background-color: #f0f4f8; /* Fondo suave */
+  color: #2c3e50; /* Texto oscuro para buen contraste */
+}
+
+th {
+  background-color: #34495e; /* Tono oscuro profesional */
+  color: #ecf0f1; /* Texto claro para contraste */
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #ecf0f1; /* Fila par en tono claro */
+}
+
+tr:nth-child(odd) {
+  background-color: #bdc3c7; /* Fila impar ligeramente más oscura */
+}
+
+h1 {
+  text-align: center;
+  color: #2980b9; /* Azul vibrante */
+  margin-top: 20px;
+}
+
+fieldset {
+  background-color: #ffffff; /* Fondo limpio */
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  max-width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidad */
+}
+
+legend {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #a944ad; /* Púrpura elegante */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #ecf0f1;
+}
+
+.cien {
+  width: 100%;
+}
+
+/* Media Query para pantallas más grandes */
+@media (min-width: 768px) {
+  body {
+    width: 60%;
+  }
+
+  legend {
+    margin-left: 0;
+  }
+}
