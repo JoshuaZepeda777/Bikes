@@ -112,3 +112,6 @@ Guía para escribir documentos HTML Versión 1.8.21
 Ejemplos de tablas
 	Disponible:https://www.uv.es/jac/guia/tablaeje.htm
 	Consultado: 21Julio24.
+
+
+Datos generales del Desarrollador: Joshua Emmanuel Zepeda Martinez estudiante de ingenieria en sistemas computacionales en el tecnologico de tlahuac campus 1. 
